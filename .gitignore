@@ -1,0 +1,21 @@
+# Python 緩存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日誌文件
+logs/
+*.log
+
+# 環境變數
+.env
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系統文件
+.DS_Store
+Thumbs.db
