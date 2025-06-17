@@ -64,6 +64,8 @@ class ClaudeAPI:
             'claude-3-sonnet-20240229': {'input': 0.003, 'output': 0.015},
             'claude-3-haiku-20240307': {'input': 0.00025, 'output': 0.00125},
             'claude-3-5-sonnet-20240620': {'input': 0.003, 'output': 0.015},
+            'claude-opus-4-20250514': {'input': 0.015, 'output': 0.075},  # 新增 Opus 4 模型
+            'claude-sonnet-4-20250514': {'input': 0.003, 'output': 0.015},  # 新增 Sonnet 4 模型
             # 可以根據需要添加更多模型
         }
 

@@ -111,7 +111,7 @@ This is a chatbot project that integrates Claude AI with Telegram, allowing user
 In the `config.ini` file, you can set the following parameters:
 
 - `claude_api_key`: Claude API key
-- `model`: Claude model to use (e.g., claude-3-opus-20240229, claude-3.5-sonnet-20240620), default is claude-3-5-sonnet-20240620
+- `model`: Claude model to use (e.g., claude-3-opus-20240229, claude-3-sonnet-20240229, claude-3-haiku-20240307, claude-3-5-sonnet-20240620, claude-opus-4-20250514, claude-sonnet-4-20250514), default is claude-3-5-sonnet-20240620
 - `max_requests_per_second`: Maximum requests per second
 - `temperature`: Randomness of generated responses (0.0-1.0)
 - `telegram_token`: Telegram Bot API Token

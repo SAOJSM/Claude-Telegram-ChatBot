@@ -111,7 +111,7 @@
 在 `config.ini` 檔案中，您可以設定以下參數：
 
 - `claude_api_key`: Claude API 金鑰
-- `model`: 使用的 Claude 模型（例如：claude-3-opus-20240229, claude-3.5-sonnet-20240620），預設是 claude-3-5-sonnet-20240620
+- `model`: 使用的 Claude 模型（例如：claude-3-opus-20240229, claude-3-sonnet-20240229, claude-3-haiku-20240307, claude-3-5-sonnet-20240620, claude-opus-4-20250514, claude-sonnet-4-20250514），預設是 claude-3-5-sonnet-20240620
 - `max_requests_per_second`: 每秒最大請求數
 - `temperature`: 生成回應的隨機性（0.0-1.0）
 - `telegram_token`: Telegram Bot API Token
